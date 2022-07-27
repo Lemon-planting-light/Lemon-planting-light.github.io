@@ -8,7 +8,9 @@ title: 柠檬被围墙阻拦的解决方法
 公共dns列表：
 114dns：114.114.114.114
 阿里dns：
-阿里DoH：
+    IPv4地址：223.5.5.5和223.6.6.6
+    IPv6地址：2400:3200::1 和 2400:3200:baba::1
+阿里DoH：https://dns.alidns.com/dns-query
 
 ```
 
@@ -24,7 +26,6 @@ title: 柠檬被围墙阻拦的解决方法
 [iOS 基础教程：如何更改设备网络的 DNS 设置 - 少数派 (sspai.com)](https://sspai.com/post/26455#!)
 
 
-[details="摘要"]
 **第一步：** 打开「设置」应用程序。
 
 **第二步：** 点击「无线局域网」进入 Wi-Fi 列表，并选择连接上可用的 Wi-Fi 网络。
@@ -42,7 +43,6 @@ title: 柠檬被围墙阻拦的解决方法
 ![](https://cdn.sspai.com/attachment/origin/2014/08/10/93237.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
 **第五步：** 接下来设备底部将滑入键盘，你可以输入你需要更改后的 DNS 数值。我们使用 114 提供的「114.114.114.114」。
-[/details]
 
 
 ### for Android
@@ -50,28 +50,35 @@ title: 柠檬被围墙阻拦的解决方法
 若手机型号不匹配请自行百度
 
 
-**wifi网络**：任意点击一个wifi，进入详情页，选择静态ip。
+**wifi网络**：
+
+任意点击一个wifi，进入详情页，选择静态ip。
 
 系统：vivo手机。（其他大同小异
+
 把dns修改成114.114.114.114，即可正常访问。
 
 如果需要手动填写ip地址，可以先在网上查询自己的ip，再填进去。
-![](upload://xACszQH02xd0gkPzsZbSHPECYoQ.jpeg)
+
+或者：https://www.alidns.com/knowledge?spm=a2c4g.11186623.0.0.73757312LyVhjY&type=SETTING_DOCS#user_android
 
 **移动数据：**
 
 
-[quote="kadouka, post:38, topic:11879"]
+
 设置-网络和互联网-高级-私人DNS
+
 私人DNS提供商主机名，填入 [dns.opendns.com ](http://dns.opendns.com)
+
 或其他支持**DoT**的服务商的**域名**
-![](upload://85eJZQNaQCqcZ8DefOlkF5XH751.jpeg)
+
 关于国内外的公共DNS，这里有个列表
+
 [https://www.cccitu.com/2205354.html ](https://www.cccitu.com/2205354.html)
 
 关于如何设置私人DNS，可参考这里
+
 [https://www.cccitu.com/2205385.html ](https://www.cccitu.com/2205385.html)
-[/quote]
 
 
 ### for Windows and MacOS
@@ -83,9 +90,7 @@ title: 柠檬被围墙阻拦的解决方法
 ## 改浏览器dns
 
 edge：
-![image|690x377](upload://gu02nA0T1wElaT9KGyiaJkdLWcm.png)
-选择使用安全DNS，然后输入 https://dns.alidns.com/dns-query
+设置里头搜索dns，选择使用安全DNS，然后输入 https://dns.alidns.com/dns-query
 
 firefox:
-![image|586x499](upload://5fSqqTsCXvicoOcf4sJjLOmJxbZ.png)
-设置里头搜索dns，然后开启这俩，输入 https://dns.alidns.com/dns-query
+设置里头搜索dns，然后开启安全DNS，输入 https://dns.alidns.com/dns-query
