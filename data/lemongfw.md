@@ -85,8 +85,7 @@ title: 柠檬被围墙阻拦的解决方法
 参阅https://www.alidns.com/knowledge?spm=a2c4g.11186623.0.0.73757312LyVhjY&type=SETTING_DOCS#user
 
 
-
-## 改浏览器dns
+### for Browsers（更改浏览器DNS）
 
 edge：
 设置里头搜索dns，选择使用安全DNS，然后输入 https://dns.alidns.com/dns-query
