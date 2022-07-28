@@ -10,21 +10,22 @@ title: 柠檬被围墙阻拦的解决方法
 阿里dns：
     IPv4地址：223.5.5.5和223.6.6.6
     IPv6地址：2400:3200::1 和 2400:3200:baba::1
-阿里DoH：https://dns.alidns.com/dns-query
-
+    DoH地址：https://dns.alidns.com/dns-query
 ```
 
 
 ## 简单粗暴法
+
 用梯子
+
 
 ## 改DNS法（完全安全免费不要下载软件！
 
-推荐：修改你的dns为114.114.114.114
+推荐：修改你的dns为上述公共DNS之一
 
 ### for IOS
-[iOS 基础教程：如何更改设备网络的 DNS 设置 - 少数派 (sspai.com)](https://sspai.com/post/26455#!)
 
+[iOS 基础教程：如何更改设备网络的 DNS 设置 - 少数派 (sspai.com)](https://sspai.com/post/26455#!)
 
 **第一步：** 打开「设置」应用程序。
 
@@ -49,8 +50,7 @@ title: 柠檬被围墙阻拦的解决方法
 
 若手机型号不匹配请自行百度
 
-
-**wifi网络**：
+#### wifi网络：
 
 任意点击一个wifi，进入详情页，选择静态ip。
 
@@ -62,9 +62,8 @@ title: 柠檬被围墙阻拦的解决方法
 
 或者：https://www.alidns.com/knowledge?spm=a2c4g.11186623.0.0.73757312LyVhjY&type=SETTING_DOCS#user_android
 
-**移动数据：**
 
-
+#### 移动数据：
 
 设置-网络和互联网-高级-私人DNS
 
@@ -86,8 +85,7 @@ title: 柠檬被围墙阻拦的解决方法
 参阅https://www.alidns.com/knowledge?spm=a2c4g.11186623.0.0.73757312LyVhjY&type=SETTING_DOCS#user
 
 
-
-## 改浏览器dns
+### for Browsers（更改浏览器DNS）
 
 edge：
 设置里头搜索dns，选择使用安全DNS，然后输入 https://dns.alidns.com/dns-query
